@@ -1,0 +1,8 @@
+Implement the logic for converting the traces into cubic bezier curves.
+
+Add command line arguments for tracing multiple colors.
+
+Add command line argument for having the tracer "wear a hat" of variable size.
+Currently, the tracer only checks to see if there is one "white" pixel to its
+right, "north" right, and "south" right. Make it so that more pixels can be
+checked in order to cases like the left interior corner of the 'A'.
